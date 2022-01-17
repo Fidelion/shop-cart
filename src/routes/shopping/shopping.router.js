@@ -1,5 +1,5 @@
 const express = require('express');
-const { httpGetCart, httpAddProducts, httpGetAllProducts, httpGetTopProducts } = require('./shopping.controller');
+const { httpGetCart, httpAddProducts, httpGetAllProducts, httpGetTopProducts, httpAddCart } = require('./shopping.controller');
 const { middlewareDecode } = require('../../middleware/auth');
 
 const shoppingRouter = express.Router();
